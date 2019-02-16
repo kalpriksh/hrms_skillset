@@ -1,5 +1,7 @@
 const express = require('express');
 const router = express.Router();
+var bodyParser = require('body-parser');
+var mongoose = require('mongoose');
 
 var skills = [
   {id:1,name:"HTML"},
